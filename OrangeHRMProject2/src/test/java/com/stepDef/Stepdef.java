@@ -22,7 +22,7 @@ public class Stepdef {
 	
 	@Given("^open a browser and go to the website$")
 	public void open_a_browser_and_go_to_the_webside() {
-		System.setProperty("webdriver.chrome.driver" ,"./Driver/chromedriver1.exe" );
+		System.setProperty("webdriver.chrome.driver" ,"./Driver/chromedrive.exe" );
 		 driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		driver.manage().window().maximize();
